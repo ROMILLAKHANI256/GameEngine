@@ -92,7 +92,7 @@ namespace WindowEngine
 
                 void main()
                 {
-                    FragColor = vec4(0.6f, 0.2f, 0.8f, 1.0f); // Orange-red color
+                    FragColor = vec4(0.2f, 0.9f, 0.3f, 1.0f); // green
                 }
             ";
 
