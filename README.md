@@ -14,7 +14,7 @@ It opens a blank window and renders a basic **2D rectangle** in the center of th
 
 ---
 
-## ▶ How to Run
+##  How to Run
 
 ### Prerequisites
 - [.NET 7 or .NET 8 SDK](https://dotnet.microsoft.com/en-us/download)
