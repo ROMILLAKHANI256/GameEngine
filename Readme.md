@@ -14,6 +14,14 @@ It opens a blank window and renders a basic **2D rectangle** in the center of th
 
 ---
 
+## Features
+- Vector operations: addition, subtraction, dot product, cross product.
+- Matrix operations: identity matrix, scaling, rotation (X-axis), and multiplication.
+- Demonstration program prints all results to the console.
+- Optional visualization: OpenGL window renders a rotating rectangle  using a model matrix.
+
+-----
+
 ##  How to Run
 
 ### Prerequisites
