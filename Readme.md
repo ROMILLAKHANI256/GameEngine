@@ -1,4 +1,4 @@
-# OpenGL Setup & First Render – Assignment 1
+# OpenGL Setup & First Render – Assignment 2(Updated)
 
 ##  Overview
 This project is a simple OpenGL setup using **C# with OpenTK**.  
