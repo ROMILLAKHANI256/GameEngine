@@ -1,29 +1,32 @@
-# OpenGL Setup & First Render – Assignment 2(Updated)
-
+# Assignment 4: Rendering a 3D Cube with Textures
 ##  Overview
 This project is a simple OpenGL setup using **C# with OpenTK**.  
-It opens a blank window and renders a basic **2D rectangle** in the center of the screen.  
+It opens a blank window and renders a basic **3D rectangle with a brick texture** in the center of the screen.  
 
 
 
 ---
 
 ##  Library Used
+- System Drawing
 - **[OpenTK](https://opentk.net/)** – a C# wrapper for OpenGL, OpenAL, and OpenCL, fully cross-platform (Windows, Linux, macOS).
  can be installed using NuGet in Visual Studio 2022.
 - `Vector3`, `Matrix4`, and `Quaternion`
 - Creating transformation matrices
-- Rendering a rotating/scaling rectangle on screen
+- Rendering a rotating/scaling cube on screen
 
 ---
 
-## Features
-- Vector operations: addition, subtraction, dot product, cross product.
-- Matrix operations: identity matrix, scaling, rotation (X-axis), and multiplication.
-- Demonstration program prints all results to the console.
-- Optional visualization: OpenGL window renders a rotating rectangle  using a model matrix.
 
------
+## Features
+- **3D Cube Geometry with Textures** – 8 unique vertices, 12 triangles (36 indices).
+- **Perspective Projection & View Matrix** – Proper 3D depth.
+- **Depth Testing** – Ensures correct face ordering.
+- **Transformations**
+  - Automatic Y-axis rotation.
+  - Dynamic scaling.
+
+----
 
 ## Operations Implemented
 
@@ -48,7 +51,7 @@ It opens a blank window and renders a basic **2D rectangle** in the center of th
 
 ---
 
-### Using Visual Studio 2022 (Recommended for Windows) 
+### Using Visual Studio 2022 
 - Clone the file using git clone or download the zip
 
 #### Open the project:
@@ -62,32 +65,5 @@ It opens a blank window and renders a basic **2D rectangle** in the center of th
 
 - Press F5 (Debug mode) or Ctrl+F5 (Run without debugging)
 
-- A window should appear with a green rectangle in the center rotating
+- A window should appear with a brick textured 3D cube in the center rotating
 
-- And console showing this output:
-  
-  === Vector Operations ===
-  
-  v1 + v2 = (5, 9, 13)
- 
-  v1 - v2 = (-3, -3, -5)
- 
-  Dot(v1, v2) = 58
- 
-  Cross(v1, v2) = (3, 7, -6)
-
- 
-  === Matrix Operations ===
- 
-  Identity Matrix:
- 
-  (1, 0, 0, 0)
- 
-  (0, 1, 0, 0)
- 
-  (0, 0, 1, 0)
- 
-  (0, 0, 0, 1)
- 
-  Transformed Point (scale + rotate): (2, 0, 0)
----
