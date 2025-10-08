@@ -1,4 +1,4 @@
-# Assignment 4: Rendering a 3D Cube with Textures
+# Assignment 4: Rendering a 3D Cube with Phong Lighting and User Input with camera movements and Light Movements
 ##  Overview
 This project is a simple OpenGL setup using **C# with OpenTK**.  
 It opens a blank window and renders a basic **3D rectangle with a brick texture** in the center of the screen.  
@@ -19,6 +19,7 @@ It opens a blank window and renders a basic **3D rectangle with a brick texture*
 
 
 ## Features
+-(To be updated soon)
 - **3D Cube Geometry with Textures** – 8 unique vertices, 12 triangles (36 indices).
 - **Perspective Projection & View Matrix** – Proper 3D depth.
 - **Depth Testing** – Ensures correct face ordering.
